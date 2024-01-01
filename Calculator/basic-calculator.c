@@ -2,15 +2,15 @@
 
 int main (){
 // input first number
-int num1;
+double num1;
 printf ("Enter first number:\t");
-scanf ("%d", &num1);
+scanf ("%lf", &num1);
 // input second number
-int num2;
+double num2;
 printf ("Enter second number:\t");
-scanf ("%d", &num2);
+scanf ("%lf", &num2);
 //display result
-int sum = num1 + num2 ;
-printf("the result : %d\t\n",sum);
+double sum = num1 + num2 ;
+printf("the result : %.2f\t\n",sum);
     return 0;
 }
