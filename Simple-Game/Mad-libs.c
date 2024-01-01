@@ -5,11 +5,11 @@ int main ()
     char color[5];
     char pl[10];
     char name[20];
-    printf("Enter a color \t");
+    printf("Enter any color but blue: \t");
     scanf("%s",color);
-    printf("Enter a pl \t");
+    printf("Enter a plural name that have color blue: \t");
     scanf("%s",pl);
-    printf("Enter a name \t");
+    printf("Enter a name someone you love: \t");
     scanf("%s",name);
 
 printf("Roses are %s\n",color);
