@@ -1,0 +1,3 @@
+This C program prompts the user to input a color, a placeholder (pl), and a name. It then uses these inputs to create a simple verse, filling in the placeholders to generate a poem-like output.
+
+However, it's important to note that the program lacks input validation, which means if the user inputs strings longer than the allocated array sizes, it may lead to buffer overflow issues. To enhance the program, consider using fgets for string input to ensure safer input handling.
