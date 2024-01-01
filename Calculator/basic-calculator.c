@@ -11,6 +11,6 @@ printf ("Enter second number:\t");
 scanf ("%d", &num2);
 //display result
 int sum = num1 + num2 ;
-printf("the result : %d\t",sum);
+printf("the result : %d\t\n",sum);
     return 0;
 }
