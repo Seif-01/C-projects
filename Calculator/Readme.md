@@ -1,0 +1,1 @@
+This C program is a basic calculator that prompts the user to enter two numbers. It then adds these numbers together and displays the result.
